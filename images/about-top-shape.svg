@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1900px" height="1973px" viewBox="0 0 1900 1973" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <defs>
+        <linearGradient x1="0%" y1="30.2269477%" x2="99.3443202%" y2="69.5137565%" id="linearGradient-1">
+            <stop stop-color="#2981C0" offset="0%"></stop>
+            <stop stop-color="#154D70" offset="100%"></stop>
+        </linearGradient>
+        <path d="M981.833333,1540.81944 C1830.05066,1540.81944 2517.66667,1948.72224 2517.66667,2451.89583 C2517.66667,2742.2995 2288.625,3000.96891 1931.85708,3167.80245 L1931.83333,3472.45833 L0.166666667,3472.45833 L0.165688762,3152.59915 C-338.444783,2985.47852 -554,2733.62001 -554,2451.89583 C-554,1948.72224 133.616005,1540.81944 981.833333,1540.81944 Z" id="path-2"></path>
+        <filter x="-1.2%" y="-1.3%" width="102.4%" height="103.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="11" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="Combined-Shape" transform="translate(0.000000, -1531.000000)">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

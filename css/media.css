@@ -1,0 +1,109 @@
+@media only screen and (max-width:1365px){
+	h1{font-size: 74px;}
+	.main-top:after{width: 420px;}
+	.logo{max-width: 230px;}
+	.top-line-inner{max-width: 790px;}
+	.about-us .container{max-width: 80%;}
+	.about-us p{margin-bottom: 40px;}
+	.how-work{background-size: cover;padding-bottom: 290px;}
+	.work-content{padding-top: 100px;}
+	h2{font-size: 58px;}
+}
+
+@media only screen and (max-width:1199px){
+	.top-line{padding-top: 45px;}
+	.logo{max-width: 210px;}
+	.top-line-inner{max-width: 660px;}
+	.main-top:after{width: 320px;}
+	h1{font-size: 62px;line-height: normal;}
+	.mid-left-cont p{font-size: 25px;line-height: 40px;margin-bottom: 40px;}
+	.top-mid ul li{margin-right: 34px;}
+	.about-us:after{width: 145px;background-size: 100%;}
+	.about-us .container{max-width: 85%;}
+	.about-us p{margin-bottom: 30px;}
+	.about-us{padding-bottom: 80px;padding-top: 100px;}
+	h2{font-size: 50px;line-height: normal;}
+	.work-inner-cont h4{font-size: 20px;margin-bottom: 25px;}
+	.work-inner-cont{padding-right: 15px;}
+	.work-inner-cont li{font-size: 20px;line-height: 24px;margin-bottom: 22px;}
+	.how-work{padding-bottom: 250px;}
+	.mobile-item{margin: 0 10px;}
+	.mid-left-cont{margin-top: 90px;}
+}
+
+@media only screen and (max-width:991px){
+	.main-top:after{display: none;}
+	.about-us:after{display: none;}
+	.top-line-inner{max-width: 100%;}
+	.top-mid {text-align: center;}
+	.mid-left-cont p{max-width: 100%;}
+	.mid-left-cont{margin-top: 70px;}
+	.mid-left-cont p{font-size: 22px;line-height: 36px;}
+	.mid-right-img figure{max-width: 315px;margin: 0 auto;margin-top: 40px;}
+	.about-us h2{margin-bottom: 25px;}
+	.about-us .container{max-width: 100%;}
+	p{font-size: 20px;line-height: 32px;}
+	.about-us{padding-bottom: 60px;padding-top: 70px;}
+	.how-work{padding: 70px 0;background: #2981c0; background: -moz-linear-gradient(top, #2981c0 0%, #154d70 100%); background: -webkit-linear-gradient(top, #2981c0 0%,#154d70 100%); background: linear-gradient(to right, #2981c0 0%,#154d70 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2981c0', endColorstr='#154d70',GradientType=0 );}
+	.work-content{padding-top: 60px;}
+	.work-inner-cont h4{margin-bottom: 20px;}
+	.work-content .col-lg-4.col-md-12.col-sm-12:last-child .work-inner-cont{margin-top: 50px;}
+	h2{font-size: 46px;}
+	.contact-us{margin-top: 0;padding: 70px 0 50px;}
+	.foot-cont{margin: 20px 0;}
+	.contact-us h2{margin-bottom: 0;}
+	.foot-cont ul li,.foot-cont span{font-size: 20px;}
+	.foot-cont span{margin-bottom: 12px;}
+	.contact-us i img{max-width: 45px;}
+}
+
+@media only screen and (max-width:767px){
+	.top-line{padding-top: 25px;}
+	.logo{max-width: 150px;}
+	.mid-left-cont{margin-top: 50px;}
+	h1{font-size: 53px;}
+	.top-mid ul li{margin-right: 24px;}
+	.about-us{padding-top: 50px;}
+	.work-inner-cont{margin-top: 40px;}
+	.how-work{padding: 50px 0;}
+	.contact-us{padding: 50px 0 30px;}
+	.btm-foot-left{text-align: center;}
+	.btm-foot-right{text-align: center;margin-top: 10px;}
+}
+
+@media only screen and (max-width:575px){
+	.header-nav ul li{margin-right: 15px;}
+	.header-nav ul li a{font-size: 16px;}
+	.logo{max-width: 130px;}
+	h1{font-size: 44px;}
+	.mid-left-cont p{font-size: 20px;line-height: 30px;}
+	.top-mid ul li{max-width: 170px;}
+	.about-us{padding-top: 40px;}
+	.about-us h2{margin-bottom: 15px;}
+	h2{font-size: 40px;}
+	.work-content{padding-top: 40px;}
+	.work-inner-cont{padding-right: 0;}
+}
+
+@media only screen and (max-width:479px){
+	.header-nav{position: static;transform: initial;margin-top: 14px;text-align: center;}
+	.logo{margin: 0 auto;}
+	.mid-left-cont{margin-top: 40px;}
+	h1{font-size: 28px;}
+	.mid-left-cont p{font-size: 18px;line-height: 26px;margin-bottom: 20px;}
+	.top-mid ul li{max-width: 130px;margin-right: 10px;}
+	.mid-right-img figure{margin-top: 30px;}
+	p{font-size: 18px;line-height: 27px;}
+	.about-us{padding-bottom: 50px;}
+	h2{font-size: 26px;}
+	.work-content h2{margin-bottom: 0;}
+	.work-inner-cont li{font-size: 18px;}
+	.foot-cont h5{margin-bottom: 15px;}
+	.contact-us i{margin-bottom: 22px;}
+	.foot-cont ul li, .foot-cont span{font-size: 18px;}
+	.btm-foot{font-size: 13px;}
+	.btm-foot-right ul li{margin-right: 7px;}
+	.btm-foot-left p{font-size: 14px;}
+	.btm-foot-right{margin-top: 5px;}
+	.btm-foot-right ul li:after{height: 9px;right: -6px;}
+}
