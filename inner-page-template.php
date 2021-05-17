@@ -1,5 +1,7 @@
-<?php get_header(); ?>
-
+<?php 
+/*Template Name: Inner Page Template*/
+get_header();
+?>
 <?php
 		if( have_posts() ) :
 			// Start the Loop.
@@ -23,4 +25,5 @@
 			endwhile; // End the loop.
 		endif;
 			?>
+
 <?php get_footer(); ?>

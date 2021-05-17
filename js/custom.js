@@ -2,6 +2,9 @@
 // Navigation
 
 $(document).ready(function () {
+  $('#menu-mobile-menu > li > a').click(function(){
+    $('nav.cd-dropdown.dropdown-is-active').removeClass('dropdown-is-active');
+  });
     $(document).on("scroll", onScroll);
     
     //smoothscroll
@@ -17,12 +20,14 @@ $(document).ready(function () {
         var target = this.hash,
             menu = target;
         $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top+2
-        }, 500, 'swing', function () {
-            window.location.hash = target;
-            $(document).on("scroll", onScroll);
-        });
+        if($target.length) {
+          $('html, body').stop().animate({
+              'scrollTop': $target.offset().top+2
+          }, 600, 'swing', function () {
+              window.location.hash = target;
+              $(document).on("scroll", onScroll);
+          });
+        }
     });
 });
 
@@ -57,7 +62,7 @@ jQuery(document).ready(function($){
 });
 
 function toggleButton() {
-  if ($(window).scrollTop() > 100) {
+  if ($(window).scrollTop() > 500) {
     $('.top').fadeIn();
   } else {
     $('.top').fadeOut();
@@ -110,3 +115,7 @@ $('.work-list').slick({
     
   ]
 });
+
+// AOS Animation
+AOS.init();
+// AOS Animation

@@ -5,7 +5,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-md-12">
-						<div class="mid-left-cont">
+						<div class="mid-left-cont" data-aos="fade-right">
 							<h1><?php the_sub_field('heading'); ?></h1>
 							<?php the_sub_field('description'); ?>
 							<ul>
@@ -15,7 +15,7 @@
 	    								$btnlink = get_sub_field('button_link'); 
 	    								if($btnimage) :
 	    							 ?>
-									<li><a href="<?php echo esc_url( $btnlink['url'] ); ?>" target="<?php echo $btnlink['target'] ? $btnlink['target'] : '_self'; ?>"><img src="<?php echo esc_url( $btnimage['url'] ); ?>"></a></li>
+									<li data-aos="fade-up" data-aos-duration="1000"><a href="<?php echo esc_url( $btnlink['url'] ); ?>" target="<?php echo $btnlink['target'] ? $btnlink['target'] : '_self'; ?>"><img src="<?php echo esc_url( $btnimage['url'] ); ?>"></a></li>
 									<?php endif; ?>
 								<?php endwhile; ?>
 							<?php endif; ?>
@@ -23,7 +23,7 @@
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-12">
-						<div class="mid-right-img">
+						<div class="mid-right-img" data-aos="fade-left" data-aos-delay="700">
 							<?php $image = get_sub_field('right_image'); ?>
 							<figure><img src="<?php echo esc_url( $image['url'] ); ?>"></figure>
 						</div>
@@ -38,8 +38,8 @@
     <?php while( have_rows('about_us_section') ): the_row(); ?>
 		<div class="about-us" id="about">
 			<div class="container">
-				<h2><?php the_sub_field('section_title'); ?></h2>
-				<?php the_sub_field('content'); ?>
+				<h2 data-aos="fade-down"><?php the_sub_field('section_title'); ?></h2>
+				<div data-aos="fade-up" data-aos-duration="1000"><?php the_sub_field('content'); ?></div>
 			</div>
 		</div>
 	<?php endwhile; ?>
@@ -60,12 +60,12 @@
 	<?php endif; ?>
 	<div class="work-content" id="howwork">
 		<div class="container">
-			<h2><?php the_sub_field('section_title'); ?></h2>
+			<h2 data-aos="fade-down"><?php the_sub_field('section_title'); ?></h2>
 			<div class="row">
 				<?php if( have_rows('section_columns') ): ?>
     				<?php while( have_rows('section_columns') ): the_row(); ?>
 				 <div class="col-lg-4 col-md-6 col-sm-12">
-				 	<div class="work-inner-cont">
+				 	<div class="work-inner-cont" data-aos="fade-up" data-aos-delay="800" data-aos-duration="800">
 				 		<?php $icon = get_sub_field('column_icon'); 
 				 			if($icon):
 				 		?>
